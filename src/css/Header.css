@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 10px 15px;
+  background-color: dodgerblue;
+}
+
+.header__item, .active {
+  margin: 0 30px;
+  padding: 8px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.header__item:hover, .active {
+  background-color: white;
+  color: dodgerblue;
+}

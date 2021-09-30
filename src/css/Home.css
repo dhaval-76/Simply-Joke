@@ -1,0 +1,113 @@
+.home {
+  background-color: #ccc;
+  flex: 1;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.home__header {
+  margin-top: 15px;
+  padding: 0 10px 10px 10px;
+  border-radius: 10px;
+  border: 2px solid blue;
+}
+
+.form__section {
+  display: flex;
+}
+
+.form__btn {
+  display: flex;
+}
+
+.form__btn button {
+  margin: 10px 20px 10px 0;
+}
+
+.form__btn button,
+.home__title button {
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  background-color: dodgerblue;
+  border-color: dodgerblue;
+}
+
+.form__btn button:hover,
+.home__title button:hover {
+  color: dodgerblue;
+  background-color: white;
+}
+
+.home__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2.5rem;
+  row-gap: 2.5rem;
+}
+
+.form__input {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px 80px 10px 5px;
+}
+
+.form__check,
+.form__checkInput {
+  cursor: pointer;
+  transform: scale(1.28);
+}
+
+@media screen and (max-width: 600px) {
+  .home__grid {
+    grid-template-columns: 78vw;
+    justify-content: center;
+  }
+
+  .form__section {
+    flex-direction: column;
+  }
+
+  .form__input {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -10px;
+  }
+
+  .form__check {
+    transform: scale(1);
+  }
+
+  .form__btn button {
+    padding: 10px 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+  .home__grid {
+    grid-template-columns: 40vw 40vw;
+    justify-content: center;
+  }
+
+  .form__section h3 {
+    font-size: 15px;
+  }
+
+  .form__check {
+    transform: scale(1.04);
+  }
+
+  .form__input {
+    margin: 10px 2px;
+  }
+}

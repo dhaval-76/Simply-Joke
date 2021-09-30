@@ -1,0 +1,18 @@
+.card {
+  background-color: white;
+  padding: 0 8px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 4px #888888;
+}
+
+.card p {
+  overflow-wrap: break-word;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  margin-top: 10px;
+}

@@ -1,0 +1,26 @@
+.favorites {
+  background-color: #ccc;
+  flex: 1;
+  padding: 2rem ;
+}
+
+.favorite__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2.5rem;
+  row-gap: 2.5rem;
+}
+
+@media screen and (max-width: 600px){
+  .favorite__grid {
+    grid-template-columns: 78vw;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1024px ) and (min-width: 600px) {
+  .favorite__grid {
+    grid-template-columns: 40vw 40vw;
+    justify-content: center;
+  }
+}
