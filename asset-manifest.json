@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Simply-Joke/static/css/main.bcecd900.chunk.css",
+    "main.js": "/Simply-Joke/static/js/main.fed78600.chunk.js",
+    "main.js.map": "/Simply-Joke/static/js/main.fed78600.chunk.js.map",
+    "runtime-main.js": "/Simply-Joke/static/js/runtime-main.2b917356.js",
+    "runtime-main.js.map": "/Simply-Joke/static/js/runtime-main.2b917356.js.map",
+    "static/js/2.dc74383f.chunk.js": "/Simply-Joke/static/js/2.dc74383f.chunk.js",
+    "static/js/2.dc74383f.chunk.js.map": "/Simply-Joke/static/js/2.dc74383f.chunk.js.map",
+    "index.html": "/Simply-Joke/index.html",
+    "static/css/main.bcecd900.chunk.css.map": "/Simply-Joke/static/css/main.bcecd900.chunk.css.map",
+    "static/js/2.dc74383f.chunk.js.LICENSE.txt": "/Simply-Joke/static/js/2.dc74383f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b917356.js",
+    "static/js/2.dc74383f.chunk.js",
+    "static/css/main.bcecd900.chunk.css",
+    "static/js/main.fed78600.chunk.js"
+  ]
+}
