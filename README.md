@@ -1,3 +1,7 @@
+# Simply Joke
+Simply Joke is a SPA made with react where users can see the joke. This website has two section, first is home page and the second is favorite page. In home page user can see 10 jokes at a time can refresh the jokes. User can select the categories and also the flags to blacklist. Home page also has a favorite button in each joke where user can click and add it to favorites list. Favorite page contains all the jokes added to favorite list. It uses https://sv443.net/jokeapi/v2/ api to fetch the jokes, categories and flags. It stores the data in the global store with the help of redux. This webpage is fully responsive.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
